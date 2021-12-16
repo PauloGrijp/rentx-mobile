@@ -18,6 +18,7 @@ import {
   Price,
   About,
   Accessories,
+  Footer,
 } from './styles';
 
 import SpeedSvg from '../../assets/speed.svg';
@@ -27,6 +28,7 @@ import GasolineSvg from '../../assets/gasoline.svg';
 import ExchangeSvg from '../../assets/exchange.svg';
 import PeopleSvg from '../../assets/people.svg';
 import Button from '../../components/Button';
+import { ScrollView } from 'react-native-gesture-handler';
 
 const dataImages = [
   'https://production.autoforce.com/uploads/version/profile_image/3188/model_main_comprar-tiptronic_87272c1ff1.png',
@@ -70,16 +72,32 @@ export function CarDetails() {
           <Accessory name="Auto" icon={ExchangeSvg} />
           <Accessory name="2 pessoas" icon={PeopleSvg} />
         </Accessories>
-
+        
         <About>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Provident, ipsam eveniet. 
-          Molestias tenetur facilis numquam voluptates quas atque aperiam temporibus.
+          Provident, ipsam eveniet.Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          Provident, ipsam eveniet.
         </About>
 
-        <Button title="Continuar"/>
+         <About>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          Provident, ipsam eveniet.Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          Provident, ipsam eveniet.
+        </About>
+        <About>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          Provident, ipsam eveniet.Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          Provident, ipsam eveniet.
+        </About>
+        <About>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          Provident, ipsam eveniet.Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          Provident, ipsam eveniet.
+        </About>
       </Content>
-
+        <Footer>
+          <Button title="Continuar"/>
+        </Footer>
     </Container>
   );
 };
