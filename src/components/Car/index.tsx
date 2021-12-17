@@ -29,7 +29,6 @@ interface CarData {
 
 interface Props extends RectButtonProps{
   data: CarData;
-  onPress: () => void;
 }
 
 export function Car({ data, ...rest }: Props) {
