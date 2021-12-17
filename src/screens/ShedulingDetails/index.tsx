@@ -47,7 +47,7 @@ const dataImages = [
   'https://production.autoforce.com/uploads/version/profile_image/3188/model_main_comprar-tiptronic_87272c1ff1.png',
 ]
 
-export function ShudulingDetails() {
+export function ShedulingDetails() {
   return (
     <Container>
       <StatusBar
