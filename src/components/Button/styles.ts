@@ -1,13 +1,19 @@
 import { RFValue } from 'react-native-responsive-fontsize';
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
+interface ButtonColorProps {
+  color?: string;
+}
+
+export const Container = styled.View<ButtonColorProps>`
   width: 100%;
 
   padding: 19px;
   align-items: center;
   justify-content: center;
-  background-color: ${({ theme }) => theme.colors.main};
+  background-color: ${({ theme, color }) => 
+    color ? color : theme.colors.main
+  };
 
 `;
 

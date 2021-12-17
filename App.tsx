@@ -16,6 +16,7 @@ import { Home } from './src/screens/Home';
 import { CarDetails } from './src/screens/CarDetails';
 import theme from './src/styles/theme';
 import { Sheduling } from './src/screens/Sheduling';
+import { ShudulingDetails } from './src/screens/ShudulingDetails';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -32,7 +33,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Sheduling />
+      <ShudulingDetails />
     </ThemeProvider>
   );
 }
