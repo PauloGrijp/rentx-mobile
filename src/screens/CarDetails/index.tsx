@@ -75,26 +75,10 @@ export function CarDetails() {
         
         <About>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Provident, ipsam eveniet.Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Provident, ipsam eveniet.
-        </About>
-
-         <About>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Provident, ipsam eveniet.Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Provident, ipsam eveniet.
-        </About>
-        <About>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Provident, ipsam eveniet.Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Provident, ipsam eveniet.
-        </About>
-        <About>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Provident, ipsam eveniet.Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Provident, ipsam eveniet.
-        </About>
+          Provident, ipsam eveniet.Lorem, sit amet consectetur adipisicing elit. 
+        </About>  
       </Content>
+
         <Footer>
           <Button title="Continuar"/>
         </Footer>
